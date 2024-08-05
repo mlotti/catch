@@ -1,5 +1,6 @@
-sandbox
+Sandbox to play aroud w/ Catch23
 
-for now, do
+For now, do
 
-```g++ -std=c++20 factorial.cpp -o main.exe```
+```g++ -std=c++20 factorial.cpp lib/libCatch2.a lib/libCatch2Main.a -o test.exe```
+```./test.exe --success``` 
