@@ -38,7 +38,7 @@ if(BUILD_TESTING)
 
   # Test target
   add_executable(tests
-    tests/test_example.cpp
+    test/test_example.cpp
   )
 
   # Link with Catch2's main (provides the test runner)
